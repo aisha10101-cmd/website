@@ -67,7 +67,7 @@ const HomePage = () => {
           <img 
             src="/logo.png" 
             alt="Achieving in Balance Logo" 
-            className="h-12 w-auto object-contain"
+            className="h-16 w-auto object-contain"
           />
         </div>
         <div>
@@ -84,14 +84,6 @@ const HomePage = () => {
         </Link>
         <Link to="/about" className="text-gray-800 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-600 hover:to-indigo-600 font-medium relative group py-2 overflow-hidden">
           ABOUT
-          <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-purple-600 to-indigo-600 transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
-        </Link>
-        <Link to="/treatment-options" className="text-gray-800 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-600 hover:to-indigo-600 font-medium relative group py-2 overflow-hidden">
-          TREATMENT OPTIONS
-          <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-purple-600 to-indigo-600 transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
-        </Link>
-        <Link to="/services" className="text-gray-800 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-600 hover:to-indigo-600 font-medium relative group py-2 overflow-hidden">
-          SERVICES
           <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-purple-600 to-indigo-600 transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100"></span>
         </Link>
         <a 
@@ -423,7 +415,7 @@ const HomePage = () => {
                       Certification courses
                     </li>
                   </ul>
-                  <a href="#" className="text-blue-500 font-semibold flex items-center hover:text-blue-600 transition-colors">
+                  <a  className="text-blue-500 font-semibold flex items-center hover:text-blue-600 transition-colors">
                     Learn more
                     <svg className="w-5 h-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
