@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { FaEnvelope, FaPhone, FaChevronRight, FaPlayCircle, FaPauseCircle, FaInstagram, FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import {  FaChevronRight, FaPlayCircle, FaPauseCircle, FaInstagram, FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const HomePage = () => {
