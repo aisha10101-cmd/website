@@ -734,19 +734,7 @@ const HomePage = () => {
           </div>
         </div>
         
-        <div className="bg-white rounded-xl shadow-xl p-8 flex-grow flex items-start">
-          <div className="bg-purple-100 p-3 rounded-full mr-5">
-            <svg className="w-6 h-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-1">Office Hours</h3>
-            <p className="text-gray-600 mb-2">Monday - Friday: 9:00 AM - 5:00 PM</p>
-            <p className="text-gray-600">Weekends: By appointment only</p>
-          </div>
-        </div>
+       
       </div>
     </div>
   </div>
